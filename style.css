@@ -1,0 +1,72 @@
+/* style.css
+ * Programmer: Steven Watson
+ * Purpose: MLBAM Interview Exercise
+ */
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+div.game_box {
+  display: inline-block;
+  /*background-color: #0088AA;*/
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.game_box:focus {
+  /*background-color: #AA7044;*/
+}
+
+div.headline_box {
+  visibility: hidden;
+  color: white;
+}
+
+div.desc_box {
+  visibility: hidden;
+  color: white;
+}
+
+img {
+  outline: 0px solid transparent;
+}
+
+.game_img_box {
+  outline: 0px solid transparent;
+}
+
+#mlb_bg_img {
+  width: inherit;
+  max-width: 1920px;
+  height: auto;
+}
+
+#mlb_bg_div {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#game_scroll_div {
+  /*background-color: #5599CC;*/
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  top: 40%;
+  white-space: nowrap;
+  overflow: auto;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden;
+}

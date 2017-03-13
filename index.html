@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+  File: index.html
+  Programmer: Steven Watson
+  Purpose: MLBAM Interview Exercise
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Steven Watson - MLBAM Interview Exercise</title>
+  <meta name="author" content="Steven Watson">
+  <meta name="description" content="Steven Watson - MLBAM Interview Exercise">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+<!-- Load JQuery from Google APIs -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Load the MLBAM exercise script -->
+  <script src="./mlb_ex.js"></script>
+</head>
+<body onload="init();" onresize="scrollMatch();">
+  <div id="mlb_bg_div"><img id="mlb_bg_img" src="./mlb_ex_bg.jpg">
+    <div id="game_scroll_div">
+      <!-- game divs will be programmatically inserted into this div -->
+    </div>
+  </div>
+</body>
+</html>
